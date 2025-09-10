@@ -1,0 +1,21 @@
+## Ignore Visual Studio temporary files, build results, and user settings
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+*.userosf
+*.sln.docstates
+
+## Ignore ReSharper and other JetBrains files
+.idea/
+.vs/
+
+## Other common files to ignore
+packages/
+*.pdb
+*.exe
+*.dll
+
+## Ignore database files
+*.mdf
+*.ldf
