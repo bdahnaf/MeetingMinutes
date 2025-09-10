@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeetingMinutes.Core
+namespace MeetingMinutes.Domain
 {
     public class Department
     {

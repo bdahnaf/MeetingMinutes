@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MeetingMinutes.Core\MeetingMinutes.Core.csproj" />
-    <ProjectReference Include="..\MeetingMinutes.Data\MeetingMinutes.Data.csproj" />
+    <ProjectReference Include="..\MeetingMinutes.Core\MeetingMinutes.Domain.csproj" />
+    <ProjectReference Include="..\MeetingMinutes.Data\MeetingMinutes.Application.csproj" />
   </ItemGroup>
 
 </Project>
