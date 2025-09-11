@@ -8,17 +8,10 @@ using System.Threading.Tasks;
 
 namespace MeetingMinutes.Domain
 {
-    public class User
+    public class User : BaseEntity
     {
-        public int Id { get; set; }
-
-        [Required]
-        [StringLength(100)]
         public string Username { get; set; }
-
-        [Required]
         public string PasswordHash { get; set; }
-
         public DateTime CreatedAt { get; set; }
         public DateTime? LastLogin { get; set; }
 
@@ -26,6 +19,6 @@ namespace MeetingMinutes.Domain
         public int EmployeeId { get; set; }
         // Navigation property for the related employee
         [ForeignKey("EmployeeId")]
-        public Employee Employee { get; set; }
+        public Employee Employee { get; set; } = null!;
     }
 }
